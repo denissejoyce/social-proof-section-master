@@ -75,6 +75,7 @@ aside > div {
     background-color: var(--light-g-magenta);
     border-radius: .5rem;
     font-weight: 500;
+    padding: 1rem;
 }
 
 body {
@@ -128,6 +129,10 @@ body {
     margin: -1px;
     white-space: nowrap;
     overflow: hidden;
+}
+
+.stars-container, .stars-container + p  {
+    display: inline-block;
 }
 
 .user-info > img {
