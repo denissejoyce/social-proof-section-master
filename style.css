@@ -68,6 +68,7 @@ article p {
 
 aside {
     display: flex;
+    flex-direction: column;
 }
 
 aside > div {
@@ -87,18 +88,34 @@ body {
     font-size: 93.75%;
 }
 
-h2 {
+.container-left {
+    text-align: left;
+}
+
+.container-left h2 {
     font-size: 3.5rem;
     font-weight: 700;
+    max-width: 30rem;
+}
+
+.container-left p {
+    font-size: 1rem;
+    max-width: 25rem;
 }
 
 .attribution {
+    flex-grow: 0;
+    flex-shrink: 0;
     font-size: 11px;
     text-align: center;
 }
 
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+.content-container {
+    display: flex;
 }
 
 .sr-only {
@@ -128,8 +145,10 @@ h2 {
 
 .wrapper {
     display: flex;
+    flex-direction: column;
     justify-content: center;
 
     min-height: 100vh;
     min-height: 100svh;
+    text-align: center;
 }
