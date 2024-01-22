@@ -60,6 +60,8 @@ table {
 article {
     background-color: var(--very-dark-magenta);
     border-radius: .5rem;
+    width: 100%;
+    max-width: 35rem;
 }
 
 article p {
@@ -100,8 +102,13 @@ body {
 }
 
 .container-left p {
+    color: var(--dark-g-magenta);
     font-size: 1rem;
     max-width: 25rem;
+}
+
+.lower {
+    flex-direction: row;
 }
 
 .attribution {
@@ -115,7 +122,7 @@ body {
     color: hsl(228, 45%, 44%);
 }
 
-.content-container {
+.upper {
     display: flex;
 }
 
