@@ -109,6 +109,7 @@ body {
 
 .lower {
     flex-direction: row;
+    justify-content: center;
 }
 
 .attribution {
@@ -124,6 +125,7 @@ body {
 
 .upper {
     display: flex;
+    justify-content: center;
 }
 
 .sr-only {
