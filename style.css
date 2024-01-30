@@ -63,6 +63,11 @@ article {
     width: 100%;
     max-width: 21rem;
     padding: 3rem;
+    transition: all ease 1s;
+}
+
+article:hover {
+    transform: translateY(-1rem);
 }
 
 article:first-of-type {
@@ -94,6 +99,11 @@ aside > div {
     padding: 1rem;
     width: max-content;
     font-weight: 700;
+    transition: all ease 1s;
+}
+
+aside > div:hover {
+    transform: translateX(1rem);
 }
 
 aside > div:first-of-type {
